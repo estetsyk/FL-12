@@ -1,7 +1,3 @@
- 
-
-/*2*/
-
 nav.tm-main-nav {
   background-color: white;
 }
@@ -12,7 +8,7 @@ a.tm-nav-item-link:hover {
     color: #fff;
 }
 
-/*3*/
+
 
 .tm-banner { 
     border-style: solid; 
@@ -20,69 +16,72 @@ a.tm-nav-item-link:hover {
     border-image: linear-gradient(to right, lightskyblue , burlywood ); 
     border-image-slice: 1;
  }
- .tm-banner-inner {border: none;}
+ .tm-banner-inner {
+     border: none;
+    }
 
-/*4*/
-    p.tm-banner-text {
+
+
+p.tm-banner-text {
         text-shadow:2px 2px #333;
     }
 
-/*5*/
-       p.tm-banner-text {  
+
+
+
+p.tm-banner-text {  
   position: relative;  
   animation-name: mymove;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
-
 @keyframes mymove {
-  from {left: 200px;}
-  to {left: 0px;}
+  from {
+      left: 200px;
+    }
+  to {
+      left: 0px;
+    }
 }
 
-/*6*/
+
+
 .flex-2-col {
     display: flex;
 }
-
 .flex-item  {
     flex-grow: 2;
 }
-
-   
-   
-
 .tm-content-box .tm-team-description-container {
 padding-top: 150px;
  text-align: center; 
 }
 
-/*7*/
+
 
 .box-bg:hover  {             
-    background-color:lightgrey ;
-    
+    background-color:lightgrey ;    
       }
-    .tm-box-bg-title:hover {
+.tm-box-bg-title:hover {
         color:lightskyblue;
-
     }
-/*8*/
+
+    
 .heading h2 {
-    color: lightskyblue;text-align: center;
+    color: lightskyblue;
+    text-align: center;
 }
-     /*div.padding-medium h2 {color: lightskyblue;text-align: center;}*/
-     .heading li { 
+     
+.heading li { 
          list-style:none;
          list-style-type: lower-alpha;
         }
 
-        .heading li:first-child::before{
+.heading li:first-child::before{
             content: ">";
         }
-
-           .heading li:first-child::after,
-           .heading li:nth-child(3)::after {
+.heading li:first-child::after,
+.heading li:nth-child(3)::after {
                content: "New";
                 color:red;
                 margin-top: 5px;
@@ -96,54 +95,65 @@ padding-top: 150px;
               
 
     
-    /*9*/
-
-
-     .blocks.tm-team-description-container h2 {text-align: left;}
-      /*p:nth-child(3) {font-style: italic; letter-spacing: 5px;word-spacing: 10px}*/
-
-     /*h2.tm-section-title {text-align: left;}*/
-
-     .blocks  .tm-section-description:nth-child(3) {
+    
+.blocks.tm-team-description-container h2 {
+    text-align: left;
+}
+.blocks  .tm-section-description:nth-child(3) {
          font-style: italic; 
          letter-spacing: 5px;
          word-spacing: 10px;
         }
      
-     /*10*/
+    
      
-     .blocks .box.box-work p::first-letter {
+.blocks .box.box-work p::first-letter {
          font-weight: bold;
         }
-
-     .blocks p {
+.blocks p {
          font-style: italic;
         }
-       .box.box-work   {
+.box.box-work   {
            padding: 10px;
         }
-        .box.box-work:first-child {
+.box.box-work:first-child {
             background-color: lightskyblue;
         }
-        .box.box-work:nth-child(3) {
+.box.box-work:nth-child(3) {
             background-color: lightskyblue;
         }
-        .box.box-work:nth-child(5) {
+.box.box-work:nth-child(5) {
             background-color: lightskyblue;
         }
-/*11*/
+
+        
+
 .tm-section-description {
     line-height: 30px; white-space: 25px;
 }
-/*12*/
-/*.form-control {border: 1px solid  lightskyblue;*/
+
+
+
   
-  .form-control{border: 1px solid  lightskyblue;}
- 
- #contact_email {border-right: 0px ;border-left: 0px ;border-top: 0px ;}
-  #contact_name {border-right: 0px ;border-left: 0px ;border-top: 0px ;}
-   #contact_subject {border-right: 0px ;border-left: 0px ;border-top: 0px ;}
-  .submit-btn {  
+.form-control{
+    border: 1px solid  lightskyblue;
+} 
+#contact_email {
+    border-right: 0px ;
+    border-left: 0px ;
+    border-top: 0px ;
+}
+#contact_name {
+    border-right: 0px ;
+    border-left: 0px ;
+    border-top: 0px ;
+}
+#contact_subject {
+    border-right: 0px ;
+    border-left: 0px ;
+    border-top: 0px ;
+}
+.submit-btn {  
       position: absolute;  
       right: 250px;  
       background-color: white;
@@ -151,84 +161,129 @@ padding-top: 150px;
       border: 1px solid  lightskyblue;
       font-size: 15px;
 }
-input:focus {background-color: lightskyblue ;}
-/*#contact_message:focus {background-color: lightskyblue ;}*/
+input:focus {
+    background-color: lightskyblue ;
+}
 #contact_message {
     background-image: url("../img/email-icon.png");
     background-repeat:no-repeat;
     background-position-x:  right;
     background-position-y: bottom;
-background-size: 32px;}
-/*#contact_message::after {content: url("../img/email-icon.png");width: 32px;height: 32px;}*/
+background-size: 32px;
+}
 
-/*13*/
-.tm-content-box {box-shadow: 2px 2px rgba(61, 55, 61, 0.7);}
-.tm-main-nav {box-shadow: 2px 2px rgba(61, 55, 61, 0.7);}
 
-/*14*/
-.tm-content-box {position: relative;}
-.tm-content-header:first-child::after  {display: none;}
+
+.tm-content-box {
+    box-shadow: 2px 2px rgba(61, 55, 61, 0.7);
+}
+.tm-main-nav {
+    box-shadow: 2px 2px rgba(61, 55, 61, 0.7);
+}
+.submit-btn {right:50px}
+
+
+
+
+.tm-content-box {
+    position: relative;
+}
+.tm-content-header:first-child::after  {
+    display: none;
+}
 .tm-content-box:first-child::after 
 {
   width: 0px; 
 	height: 0px; 
-	border-top: 50px solid lightskyblue;  /* left arrow slant */
-	border-right: 50px solid transparent; /* right arrow slant */
-    
+	border-top: 50px solid lightskyblue;  
+	border-right: 50px solid transparent;     
     left: 0px;
 	font-size: 0;
-    line-height: 0;
-    
+    line-height: 0;    
     content: '';
     position: absolute;
     top: 0px;
 }
 
-/*1*/
+
+
  
  @media  print {
-   .tm-main-content  {padding-top: 0px;}
-   .carousel {padding: 0px;}
-  .padding-medium {padding: 0px;}
-  div.tm-team-description-container {text-align: center;max-width: none;}
- div.tm-team-img {text-align: center;}
- .tm-content-box h2 {color: lightskyblue;text-align: center;;}
- .heading li { list-style:none; 
-    
-    align-items: center;}
+.tm-main-content  {
+    padding-top: 0px;
+}
+.carousel {
+    padding: 0px;
+}
+.padding-medium {
+    padding: 0px;
+}
+div.tm-team-description-container {
+    text-align: center;
+    max-width: none;
+}
+ div.tm-team-img {
+     text-align: center;
+    }
+ .tm-content-box h2 {
+     color: lightskyblue;
+     text-align: center;
+    }
+ .heading li { 
+     list-style:none;     
+    align-items: center;
+}
+.heading ol {
+    width: 50%;text-align: center;
+}
 
-    .heading ol {width: 50%;text-align: center;}
+.blocks p:nth-child(3) {
+    font-style: italic; 
+    letter-spacing: 3px;
+}
+.tm-main-nav {
+    display: none;
+}
+.tm-team-img, .img-fluid  {
+    display: none;
+}
+.tm-banner {
+    border-image: none;  
+    border-width:1px;
+    border-color: lightgrey;
+    }
+.tm-banner-text {
+    animation: none;
+}
 
-   .blocks p:nth-child(3) {font-style: italic; letter-spacing: 3px;}
-   .tm-main-nav {display: none;}
-   .tm-team-img, .img-fluid  {display: none;}
-   .tm-banner {border-image: none;  border-width:1px; border-color: lightgrey;}
-   .tm-banner-text {animation: none;}
-
-    .heading li:first-child::before{
+.heading li:first-child::before{
             content: none;
         }
 
-           .heading li:first-child::after,
-           .heading li:nth-child(3)::after {
-               content: none;
-                
+.heading li:first-child::after,.heading li:nth-child(3)::after {
+               content: none;               
                  
                 } 
-                .heading ol {margin: auto;}
-                .heading li:nth-child(1),.heading li:nth-child(3),.heading li:nth-child(5),.heading li:nth-child(7) {text-align: right;}
-                .heading li:nth-child(2),.heading li:nth-child(4),.heading li:nth-child(6) {text-align: left;}
+.heading ol {margin: auto;}
+.heading li:nth-child(1),.heading li:nth-child(3),.heading li:nth-child(5),.heading li:nth-child(7) {
+    text-align: right;
+}
+.heading li:nth-child(2),.heading li:nth-child(4),.heading li:nth-child(6) {
+    text-align: left;
+}
                 
                 
 
 
-                .tm-content-box .tm-team-description-container {
-padding-top: initial;}
-.box-work, #contact {display: none;}
-.tm-content-box:first-child::before {display: none;}
-
-
-
+.tm-content-box .tm-team-description-container {
+padding-top: initial;
+}
+.box-work, #contact {
+    display: none;
+}
+.tm-content-box:first-child::before {
+    display: none;
+}
 }
   
 
