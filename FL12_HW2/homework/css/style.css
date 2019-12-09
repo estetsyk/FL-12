@@ -129,7 +129,7 @@ padding-top: 150px;
         
 
 .tm-section-description {
-    line-height: 30px; white-space: 25px;
+    line-height: 30px; 
 }
 
 
@@ -252,9 +252,7 @@ div.tm-team-description-container {
     border-width:1px;
     border-color: lightgrey;
     }
-.tm-banner-text {
-    animation: none;
-}
+
 
 .heading li:first-child::before{
             content: none;
