@@ -1,0 +1,119 @@
+*{font-family: 'Source Sans Pro', sans-serif;}
+p{font-family: 'Hind', sans-serif;}
+
+@mixin CenterBox { margin-left: auto; margin-right: auto;   width: 50%;  
+}
+@mixin buttonBaseStyle {background-color: $buttonColor; 
+border: none;
+    color: white;
+    width: 100px;
+    height: 40px;}
+
+ @mixin linkStyle {color:white;}   
+
+button {@include buttonBaseStyle;}
+
+
+
+body {margin: 0px;background-color:$BodyBackgroundColor;}
+
+.header {
+  
+   background-image: url($contentBackground);
+   background-position: center;
+   
+  border-bottom-right-radius: 300px 100px;
+  background-size: 100% 160%;
+ }
+
+.header-wrap {
+    padding: 0px 0px 0px 100px;
+}
+
+.landing-logo img {float: left;
+width: 32px;
+margin-top: 10px;
+margin-right: 10px;;
+}
+
+.landing-logo span {display: block; font-size: 8px; }
+.landing-logo p {margin-top: 0px;padding-top: 10px;color:$fontColor; }
+
+.header_heading  {font-weight: bold;
+    font-size: 60px;
+    width: 500px;margin-block-end: 20px; color: $fontColor; }
+
+.header_text { display: block; font-size: 8px;;
+width: 280px
+;}   
+
+.header_button {margin: 50px;}
+
+ .login {@include linkStyle;
+}   
+
+.section_text {text-align: center;
+font-weight: bold;
+font-size: xx-large;
+color: $fontColor;
+}
+
+
+.section_card {
+    display: flex;
+     margin-bottom: 10px;
+  @include CenterBox;
+    padding: 10px;
+color: white;
+background-color: $BoxColor;
+text-align: center;}
+
+
+
+.section_card_img {flex-grow: 1;}
+
+.section_link {@include linkStyle;}
+.section_card_text {
+    flex-grow: 2;
+    text-align: justify;
+    font-size: 12px;
+    
+    
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.hightlight {background-color: $ColorAwesome;}
+ 
+
+
+
+.section_banner { @include CenterBox;
+    
+    
+    background-image: linear-gradient(to right,$GradientColorLeft,$GradientColorRight);
+    padding-left: 80px; padding-right: 80px;
+    margin-top: 80px;
+position: relative;margin-bottom: -70px;}
+
+.section_banner_heading {font-size: 20px;
+font-weight: bold;padding-top: 30px;margin-bottom: 10px;color:$fontColor;}
+
+.section_banner_text {color:white; font-size:15px;padding-bottom: 30px;margin-top: 5px;}
+
+    .section_banner_button { position: absolute; right: 100px; top: 50px;
+    }
+
+
+    .footer-wrap {display: flex; background-color: $BoxColor; padding: 50px;
+    margin: auto;color:white;}
+    
+   .footer_text,  .footer-cr, .footer_logo  { @extend .section_card_img; width: 33%;font-size: xx-small;}
+   .footer_logo {padding-top:30px;}
+   .footer_logo p {color:white;}
+
+   .footer_text {width: 150px;padding-top: 30px;}
+   .footer-cr {text-align: right;padding-top: 50px; padding-right: 50px;}
+
+   
+ 

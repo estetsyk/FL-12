@@ -1,0 +1,148 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+p {
+  font-family: 'Hind', sans-serif; }
+
+button {
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px; }
+
+body {
+  margin: 0px;
+  background-color: black; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-position: center;
+  border-bottom-right-radius: 300px 100px;
+  background-size: 100% 160%; }
+
+.header-wrap {
+  padding: 0px 0px 0px 100px; }
+
+.landing-logo img {
+  float: left;
+  width: 32px;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+.landing-logo span {
+  display: block;
+  font-size: 8px; }
+
+.landing-logo p {
+  margin-top: 0px;
+  padding-top: 10px;
+  color: white; }
+
+.header_heading {
+  font-weight: bold;
+  font-size: 60px;
+  width: 500px;
+  margin-block-end: 20px;
+  color: white; }
+
+.header_text {
+  display: block;
+  font-size: 8px;
+  width: 280px; }
+
+.header_button {
+  margin: 50px; }
+
+.login {
+  color: white; }
+
+.section_text {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  color: white; }
+
+.section_card {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  color: white;
+  background-color: grey;
+  text-align: center; }
+
+.section_card_img, .footer_text, .footer-cr, .footer_logo {
+  flex-grow: 1; }
+
+.section_link {
+  color: white; }
+
+.section_card_text {
+  flex-grow: 2;
+  text-align: justify;
+  font-size: 12px;
+  padding-right: 50px;
+  padding-left: 50px; }
+
+.hightlight {
+  background-color: orange; }
+
+.section_banner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-image: linear-gradient(to right, orange, darkred);
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 80px;
+  position: relative;
+  margin-bottom: -70px; }
+
+.section_banner_heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  color: white; }
+
+.section_banner_text {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 30px;
+  margin-top: 5px; }
+
+.section_banner_button {
+  position: absolute;
+  right: 100px;
+  top: 50px; }
+
+.footer-wrap {
+  display: flex;
+  background-color: grey;
+  padding: 50px;
+  margin: auto;
+  color: white; }
+
+.footer_text, .footer-cr, .footer_logo {
+  width: 33%;
+  font-size: xx-small; }
+
+.footer_logo {
+  padding-top: 30px; }
+
+.footer_logo p {
+  color: white; }
+
+.footer_text {
+  width: 150px;
+  padding-top: 30px; }
+
+.footer-cr {
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 50px; }
+
+/*# sourceMappingURL=style2.css.map */
